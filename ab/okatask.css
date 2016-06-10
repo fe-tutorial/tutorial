@@ -1,0 +1,287 @@
+body {
+  width: 1000px;
+  height: auto;
+  margin: 30px auto;
+}
+
+@font-face {
+  font-family: 'Norwester Regular';
+  src: url("norwester.otf");
+}
+
+.contact ul:after,
+.menu ul:after,
+.alltopics:after,
+.recommendimage:after,
+.item:after,
+.leftcontents:after,
+.contents:after,
+main:after,
+section:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+header a {
+  display:block;
+}
+
+.logo {
+  font-family: 'Norwester Regular';
+  color: #000000;
+  width: 220px;
+  height: 45px;
+  font-size: 30px;
+  float: left;
+}
+
+.contact a {
+  width: 70px;
+  font-size: 12px;
+  margin: 10px 0 0 0;
+  text-align: center;
+  float: right;
+}
+
+.menu {
+  margin-bottom: 15px;
+  margin-top: 35px;
+  clear: both;
+}
+
+.menu a {
+  width: 14%;
+  font-family: 'Norwester Regular';
+  color: #000000;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  float: left;
+}
+
+nav a {
+  color: #000000;
+}
+
+.contents {
+  width: 1000px;;
+  border-top: : 15px solid #D3D3D3;
+}
+
+.mainimage {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.contents img {
+  background-color: #dcdcdc;
+}
+
+table {
+  margin-left: 8px;
+  width: 200px;
+  height: 130px;
+}
+
+.calendar td {
+  text-align: center;
+  font-size: 7px;
+}
+
+h2 {
+  box-sizing: border-box;
+  height: 40px;
+  padding-top: 5px;
+}
+
+.leftcontents {
+  width: 207px;
+  margin: 0;
+  float: left;
+}
+
+.leftcontents h2 {
+  border-left:5px solid #00489d;
+  padding-left: 12px;
+}
+
+.categoryitem {
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+#category {
+  margin-bottom: 35px;
+}
+
+.categoryitem a {
+  display:block;
+  margin-bottom: 10px;
+}
+
+.lv2 {
+  margin-left: 2em;
+}
+
+.sun {
+  color:#ea9a99;
+}
+
+.sat {
+  color:#7874d5;
+}
+
+main {
+  float: right;
+  margin-left: 0;
+  width: 770px;
+}
+
+main h2 {
+  border-left:5px solid #4489ca;
+  padding-left: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul, li {
+  list-style: none;
+}
+
+section {
+  margin-bottom: 40px;
+  clear: both;
+}
+
+.alltopics {
+  width: 760px;
+  margin: 0;
+}
+
+.topics {
+  padding-left: 30px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.topics div {
+  width: 625px;
+  float: right;
+  padding-left: 30px;
+}
+
+.recommendimage li {
+  float: left;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.recommendimage li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.recommendimage img {
+  width: 250px;
+  height: 300px;
+  margin: 0;
+}
+
+.recommendimage li {
+  position: relative;
+}
+
+.alltopics li {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.label, .sale, .comment {
+  font-size: 15px;
+}
+
+.label, .sale {
+  position: absolute;
+}
+
+.comment {
+  margin-top: 10px;
+}
+
+.price {
+  margin-top: 20px;
+}
+
+section {
+  clear: both;
+}
+
+section ul {
+  padding-left: 0;
+}
+
+.label {
+  font-size: 8px;
+  padding: 5px;
+  background-color: #ffffff;
+  top: 10px;
+  left: 0;
+}
+
+.sale {
+  font-size: 8px;
+  padding: 5px;
+  background-color: #ffffff;
+  color: #ff5555;
+  top: 10px;
+  left: 0;
+}
+
+.item li {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.item li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.item img {
+  width: 250px;
+  height: 250px;
+}
+
+.top {
+  clear: both;
+  display:block;
+  width: 70px;
+  height: 70px;
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0;
+  border-radius: 100%;
+  opacity: 0.2;
+  top: 800px;
+  right: 450px;
+  position: fixed;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 70px;
+}
+
+.contents {
+  border-bottom: 15px solid #e5e5e5;
+}
+
+footer {
+    margin-top; 50px;
+}
+
+footer p {
+  text-align: center;
+}
