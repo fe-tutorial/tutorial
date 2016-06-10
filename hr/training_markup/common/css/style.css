@@ -44,8 +44,7 @@ nav,ul {
 
 /* 全体のラップ */
 #container{
-    min-width: 1040px;
-    max-width: 1040px;
+    width: 1040px;
     margin: 0 auto;
     padding-top: 28px;
 }
@@ -146,13 +145,7 @@ nav,ul {
 
 
 /* メインセクション */
-.main{
-    
-}
     /* メインセクショントップ */
-    .main_top{
-        
-    }
     .main_topImage{
         width: 100%;
     }
@@ -180,9 +173,6 @@ nav,ul {
                 margin-bottom: 26px;
                 line-height: 40px;
             }
-            .aside_nav{
-                
-            }
             .aside_navListItem{
                 margin-top: 4%;
                 font-size: 90%;
@@ -190,9 +180,6 @@ nav,ul {
             .aside_navListItemLink{
                 text-decoration: none;
                 color: #000;
-            }
-            .aside_navListChildList{
-                
             }
             .aside_navListChildListItem{
                 margin-left: 14%;
@@ -206,9 +193,6 @@ nav,ul {
             /* カテゴリセクション */
             
             /* カレンダーセクション */
-            .aside_calender{
-                
-            }
             .aside_calenderTable{
                 width: 215px;
             }
@@ -245,7 +229,7 @@ nav,ul {
             margin-bottom: 30px;
             line-height: 40px;
         }
-        .mainContents_topicsItem{
+        .mainContents_topicsListItem{
             overflow: hidden;
             margin-bottom: 3%;
         }
@@ -269,12 +253,12 @@ nav,ul {
             overflow: hidden;
             margin-bottom: 50px;
         }
-        .mainContents_recommendItem{
+        .mainContents_recommendItemListItem{
             float: left;
             position: relative;
             width: 250px;
         }
-        .mainContents_recommendItem_center{
+        .mainContents_recommendItemListItem_center{
             float: left;
             width: 250px;
             margin-left: 10px;
@@ -317,33 +301,28 @@ nav,ul {
             line-height: 140%;
             margin-bottom: 3%;
         }
-        .mainContents_recommendItemPrice{
-            
-        }
         /* レコメンドセクション */
         
         /* ピックアップセクション */
-        .mainContents_pickupItem{
+        .mainContents_pickupItemList{
             overflow: hidden;
         }
-        .mainContents_pickupItemImgBlock{
+        .mainContents_pickupItemListItem{
             float: left;
         }
-        .mainContents_pickupItemImgBlock_center{
+        .mainContents_pickupItemListItem_center{
             float: left;
             margin-left: 10px;
             margin-right: 10px;
         }
-        .mainContents_pickupItemImgBlock_middle{
+        .mainContents_pickupItemListItem_middle{
             float: left;
             margin-top: 10px;
             margin-bottom: 10px
         }
-        .mainContents_pickupItemImgBlock_middleCenter{
+        .mainContents_pickupItemListItem_middleCenter{
             float: left;
             margin: 10px;
-        }
-        .mainContents_pickupItemImg{
         }
         /* ピックアップセクション */
     /* メインセクションコンテンツ */
