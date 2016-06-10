@@ -1,0 +1,210 @@
+/* recet */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,sans-serif;
+  background-color: #ffffff;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* webfont */
+@font-face {
+    font-family: '/font/norwester.eot';
+    src: url('norwester.eot');
+    src: url('norwester.eot?iefix') format('eot'),
+         url('norwester.ttf') format('truetype'),
+         url('norwester.svg#webfontjSpbZQRv') format('svg');
+}
+
+/* clearfix */
+.clearfix:after {
+  content:" ";
+  display:block;
+  clear:both;
+}
+
+/* commonbase */
+.pagewrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+.contents-slideshow {
+  margin: 0 0 10px;
+}
+.contents-side {
+  width: 220px;
+  float: left;
+}
+.contents-main {
+  width: 770px;
+  float: right;
+}
+.contents-wrap {
+  margin: 0 0 50px;
+}
+.block {
+  margin: 0 0 40px;
+}
+
+/* header */
+.logoarea {
+  padding: 30px 0 20px;
+}
+.logoarea h1 {
+  font-size: 34px;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  font-family: norwester;
+  float: left;
+}
+.logoarea ul {
+  float: right;
+}
+.logoarea ul li {
+  margin: 0 30px 0 0;
+  float: left
+}
+nav ul li a{
+  font-size: 18px;
+  font-family: norwester;
+  padding: 20px 47px;
+  float: left;
+}
+
+/* h2 */
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Helvetica";
+  border-left: 5px solid #478ac8;
+  margin: 0 0 20px;
+  padding: 15px 0 15px 10px;
+}
+.contents-side h2 {
+  border-left: 5px solid #094a9c;
+}
+
+/* pagetop */
+.pagetop a {
+  width: 70px;
+  height: 14px;
+  padding: 27px 0 29px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.6);
+  text-align: center;
+  border-radius: 100%;
+  display: block;
+  position: fixed;
+  top: 90%;
+  right: 2%;
+}
+
+/* footer */
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 30px 0;
+  border-top: 20px solid #e5e5e5;
+}
+
+
+
+/* side block css */
+/* category */
+.category li a {
+  padding: 7px 0 7px 15px;
+  display: block;
+}
+.category li li a {
+  padding: 7px 0 7px 45px;
+}
+
+/* calendar */
+.calendar table {
+  width: 220px;
+  font-size: 10px;
+  text-align: center;
+}
+.calendar th {
+  font-weight: normal;
+}
+.calendar th,
+.calendar td {
+  padding: 3px
+}
+.calendar .sun {
+  color: #d1282d;
+}
+.calendar .sat {
+  color: #4d4ac6;
+}
+
+
+/* main block css */
+/* topics */
+.topics li {
+  margin: 0 0 20px;
+  padding: 0 0 0 25px;
+  overflow: hidden;
+  clear: both;
+}
+.topics .time {
+  width: 90px;
+  float: left;
+  display: block;
+}
+.topics .summary {
+  width: 655px;
+  float: right;
+}
+
+/* recommend */
+.recommend li {
+  width: 250px;
+  margin: 0 10px 0 0;
+  float: left;
+}
+.recommend li.end {
+  margin: 0;
+}
+.recommend .itemimg {
+  position: relative;
+  margin: 0 0 10px;
+}
+.recommend .itemimg span {
+  font-size: 8px;
+  background: #fff;
+  padding: 3px 10px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.recommend .itemimg .sale {
+  color: #d1282d;
+}
+.recommend .detailtext {
+  margin: 0 0 10px;
+}
+
+/* pickupitem */
+.pickupitem li {
+  width: 250px;
+  margin: 0 10px 10px 0;
+  float: left;
+}
+.pickupitem li.end {
+  margin: 0 0 10px;
+}
